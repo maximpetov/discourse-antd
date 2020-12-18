@@ -45,9 +45,9 @@ html {
 }
 
 .regular .contents {
-    background: var(--$tertiary-low);
+    background: var(--tertiary-low);
     color: #262626;
-    border: 0;
+    border: 1px solid var(--tertiary-medium);
     -webkit-box-shadow: none;
     box-shadow: none;
 }
