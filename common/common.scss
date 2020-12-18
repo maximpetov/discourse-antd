@@ -40,21 +40,3 @@ html {
 .select-kit.combo-box .select-kit-header {
     border-radius: 2px;
 }
-
-.select-kit {
-	border-radius: 2px;
-}
-
-.nav-pills>li a.active {
-	color: var(--tertiary);
-	background: var(--secondary);
-	box-shadow: inset -1px 0px 0px #D9D9D9, inset 1px 0px 0px #D9D9D9, inset 0px 1px 0px #D6D6D6;
-	border-radius: 2px 2px 0px 0px;
-	border-bottom: 2px solid var(--tertiary);
-}
-
-.nav-pills>li a {
-	background: #F5F5F5;
-	box-shadow: inset -1px 0px 0px #D9D9D9, inset 1px 0px 0px #D9D9D9, inset 0px 1px 0px #D6D6D6;
-	border-radius: 2px 2px 0px 0px;
-}
