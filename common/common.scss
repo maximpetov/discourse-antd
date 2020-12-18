@@ -13,6 +13,10 @@ html {
 	border-sizing: border-box;
 }
 
+input, textarea {
+    border-radius: 2px;
+}
+
 .btn-icon, .btn-text, .btn-default, .btn-icon-text, .btn-primary, .btn-danger {
 	border-radius: 2px;
 }
