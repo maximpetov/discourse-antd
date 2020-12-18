@@ -43,3 +43,11 @@ html {
 .select-kit {
 	border-radius: 2px;
 }
+
+.archetype-private_message .topic-body .contents, .archetype-private_message div.reply {
+    background: var(--$tertiary-low);
+    color: #262626;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
