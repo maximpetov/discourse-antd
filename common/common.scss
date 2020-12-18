@@ -1,6 +1,6 @@
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 14px; // default font-size  
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	font-size: 14px; // default font-size  
         &.text-size-smaller {
           font-size: 12px;
         }
@@ -10,6 +10,7 @@ html {
         &.text-size-largest {
           font-size: 18px;
         }
+	border-sizing: border-box;
 }
 
 .btn-icon, .btn-text, .btn-default, .btn-icon-text, .btn-primary, .btn-danger {
