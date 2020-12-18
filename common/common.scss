@@ -3,10 +3,14 @@
 }
 
 #create-topic {
-	background-color: #FE6D00;
-	color: #fff;
+	background-color: var(--tertiary);
+	color: var(--secondary);
 }
 
 .d-header-icons .d-icon {
-    color: #fff;
+    color: var(--secondary);
+}
+
+.btn .d-icon {
+    color: var(--secondary);
 }
