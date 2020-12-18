@@ -5,5 +5,17 @@
   "assets": {
   },
   "color_schemes": {
+    "Sovereignty": {
+      "primary": "262626",
+      "secondary": "FFFFFF",
+      "tertiary": "FE6D00",
+      "quaternary": "FE6D00",
+      "header_background": "FFFFFF",
+      "header_primary": "FE6D00",
+      "highlight": "FFE58F",
+      "danger": "FF4D4F",
+      "success": "52C41A",
+      "love": "F759AB"
+    }
   }
 }
