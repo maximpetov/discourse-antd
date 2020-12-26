@@ -1,32 +1,39 @@
 html {
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	font-size: 14px; // default font-size  
-        &.text-size-smaller {
-          font-size: 12px;
-        }
-        &.text-size-larger {
-          font-size: 16px;
-        }
-        &.text-size-largest {
-          font-size: 18px;
-        }
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 14px; // default font-size
+    &.text-size-smaller {
+        font-size: 12px;
+    }
+    &.text-size-larger {
+        font-size: 16px;
+    }
+    &.text-size-largest {
+        font-size: 18px;
+    }
 }
 
-input, textarea {
+input,
+textarea {
     border-radius: 2px !important;
 }
 
-.btn-icon, .btn-text, .btn-default, .btn-icon-text, .btn-primary, .btn-danger {
-	border-radius: 2px;
+.btn-icon,
+.btn-text,
+.btn-default,
+.btn-icon-text,
+.btn-primary,
+.btn-danger {
+    border-radius: 2px;
 }
 
 #create-topic {
-	background-color: var(--tertiary);
-	color: var(--secondary);
+    background-color: var(--tertiary);
+    color: var(--secondary);
 }
 
 #create-topic .d-icon {
-	color: var(--secondary);
+    color: var(--secondary);
 }
 
 .d-header-icons .d-icon {
@@ -42,4 +49,13 @@ input, textarea {
 
 .select-kit.combo-box .select-kit-header {
     border-radius: 2px;
+}
+
+.custom-header-links {
+    font-size: 13px;
+}
+
+.d-header .title a,
+.d-header .title a:visited {
+    color: #000;
 }
