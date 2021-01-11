@@ -53,6 +53,20 @@ textarea {
 
 .custom-header-links {
     font-size: 13px;
+    line-height: 54px;
+
+    .headerLink {
+        position: relative;
+        top: 1px;
+    }
+
+    .community-custom-header-links {
+        border-bottom: 2px solid var(--tertiary);
+
+        a {
+            color: var(--tertiary);
+        }
+    }
 }
 
 .d-header .title a,
