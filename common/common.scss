@@ -60,6 +60,10 @@ textarea {
         top: 1px;
     }
 
+    .headerLink:hover {
+        border-bottom: 2px solid var(--tertiary);
+    }
+
     .community-custom-header-links {
         border-bottom: 2px solid var(--tertiary);
 
