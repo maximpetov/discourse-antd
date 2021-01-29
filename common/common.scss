@@ -65,13 +65,17 @@ textarea {
         border-bottom: 2px solid var(--tertiary);
     }
 
-    .community-custom-header-links {
-        border-bottom: 2px solid var(--tertiary);
-
-        a {
-            color: var(--tertiary);
-        }
+    .community-custom-header-links a {
+        color: var(--tertiary);
     }
+}
+
+body:not(.about-page) .custom-header-links .community-custom-header-links {
+    border-bottom: 2px solid var(--tertiary);
+}
+
+body.about-page .custom-header-links .about-custom-header-links {
+    border-bottom: 2px solid var(--tertiary);
 }
 
 .d-header .title a:link,
@@ -79,6 +83,9 @@ textarea {
     color: #000;
 }
 
+.d-header .title img#site-logo {
+    width: 187px;
+}
 .published-page-content-header {
     display: none;
 }
