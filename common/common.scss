@@ -70,6 +70,10 @@ textarea {
     }
 }
 
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
 body:not(.about-page) .custom-header-links .community-custom-header-links {
     border-bottom: 2px solid var(--tertiary);
 }
