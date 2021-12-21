@@ -59,10 +59,13 @@ textarea {
         flex-shrink: 0;
         position: relative;
         top: 1px;
+        padding: 0;
+        margin: 0 10px;
+        border-bottom: 2px solid transparent;
     }
 
     .headerLink:hover {
-        border-bottom: 2px solid var(--tertiary);
+        border-color: var(--tertiary);
     }
 
     .community-custom-header-links a {
